@@ -1,0 +1,5 @@
+node_modules/
+atpet/atpet.config.json
+*.log
+*.jsonl
+.hooks-backup/

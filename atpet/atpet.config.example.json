@@ -1,0 +1,8 @@
+{
+  "url": "http://127.0.0.1:8765",
+  "timeoutMs": 2000,
+  "agentApp": "github-copilot",
+  "enabled": true,
+  "forwardMessages": false,
+  "debug": false
+}
