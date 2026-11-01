@@ -1,0 +1,17 @@
+{
+  "name": "copilot-atpet-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "将 GitHub Copilot（App 扩展 / CLI hooks）接入 At-Pet 桌宠的桥接插件",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "doctor": "node scripts/install.mjs doctor",
+    "install:app": "node scripts/install.mjs app",
+    "install:cli": "node scripts/install.mjs cli"
+  }
+}
